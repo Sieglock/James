@@ -1,0 +1,189 @@
+
+/******Tag Selectors******/
+
+body {
+  background-color: #c0c9cf;
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #0f2a3d;
+  font-size: 20px;
+}
+
+h1 {
+  color: #0f2a3d;
+  font-size: 625%;
+  font-family: 'Redressed', cursive;
+  margin: 25px auto 0 auto;
+}
+
+h2 {
+  color: #0f2a3d;
+  font-size: 65px;
+  font-family: 'Lobster', cursive;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #0f2a3d;
+  font-size: 35px;
+  font-family: 'Lobster', cursive;
+}
+
+hr {
+  border: dotted #0f2a3d 6px;
+  border-bottom: none;
+  width: 3%;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 3;
+}
+
+a {
+  color: #0f2a3d;
+  text-decoration: none
+}
+a:hover {
+  color: #62a9c4;
+}
+
+/******Class Selectors******/
+
+.top-container {
+  background-image: linear-gradient(#c0c9cf, #c0c9cf, #0f2a3d);
+  position: relative;
+  padding-top: 100px;
+  margin: 0;
+}
+.middle-container {
+  position: relative;
+  margin: 0;
+}
+.bottom-container {
+  background-color: #62a9c4;
+  position: relative;
+  margin: 100px 0 10px;
+  padding: 50px 0 25px;
+}
+.pro {
+  text-decoration: underline;
+}
+.info {
+  font-size: 20px;
+  color: #0f2a3d;
+  font-family: 'Lobster', cursive;
+  font-weight: normal;
+}
+.foot-link {
+  color: #0f2a3d;
+  margin: 10px 20px;
+}
+.foot-link:hover {
+  color: #c0c9cf;
+}
+.skills {
+  padding: 40px;
+  font-weight: bold;
+}
+.skillset {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.skillsetOne {
+  clear: right;
+}
+.skillsetTwo {
+  clear: left;
+}
+.titles {
+  text-align: center;
+}
+.profile {
+  padding: 40px;
+}
+.contactMe {
+  text-align: center;
+}
+.contactMessage {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.copywrite {
+  font-size: 15px;
+  color: #c0c9cf;
+  font-family: 'Redressed', cursive;
+  font-weight: normal;
+  padding: 20px 0 5px;
+}
+.btn {
+  background: #98c8e0;
+  background-image: -webkit-linear-gradient(top, #98c8e0, #2bcc63);
+  background-image: -moz-linear-gradient(top, #98c8e0, #2bcc63);
+  background-image: -ms-linear-gradient(top, #98c8e0, #2bcc63);
+  background-image: -o-linear-gradient(top, #98c8e0, #2bcc63);
+  background-image: linear-gradient(to bottom, #98c8e0, #2bcc63);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #62a8c4;
+  text-decoration: none;
+}
+
+/******Class Selectors for Images******/
+
+.topCloud {
+  position: absolute;
+  right: 700px;
+  top: 50px;
+}
+.middleCloud {
+  position: absolute;
+  left: 500px;
+  bottom: 1150px;
+}
+.bottomCloud {
+  position: absolute;
+  left: 800px;
+  bottom: 950px;
+}
+.mountain {
+  width: 100%;
+  height: auto;
+}
+
+.educationImage {
+  border-radius: 50%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.trainingImage {
+  border-radius: 50%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.webDevImage {
+  border-radius: 50%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+
+}
+.laborerImage {
+  border-radius: 50%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
